@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    src:url('../src/font/Roboto-Black.ttf');
+    font-weight: black;
+
+  }
+
+ @font-face {
+    font-family: 'Roboto-Medium';
+    src:url('../src/font/Roboto-Medium.ttf');
+    font-weight: medium ;
+  } 
+
+  
+ @font-face {
+    font-family: 'Roboto-Regular';
+    src:url('../src/font/Roboto-Regular.ttf');
+    font-weight: regular;
+    
+  } 
+
+/* styling the library page  */
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    margin-bottom:-30px;
+    
+  }
+.table{
+  margin-top: 0px;
+}  
+  
+
+  h1{
+    font-family:'Roboto-Black';
+    font-size: 50px;
+  
+  }
+
+.btn{
+    position:relative;
+    color: white;
+    background-color: #8CC928;
+    width: 102px;
+    height: 36px;
+    border: 0px;
+    border-radius: 4px;
+    margin-right: 0px;
+   
+
+}
+
+   .head-cover-image{
+    font-family: 'Roboto-Medium';
+    padding-left: 24px;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size: 15px; 
+    width: 144px;
+    text-align: left;
+    
+   
+   
+  }
+
+ .head-launch-date{
+    font-family: 'Roboto-Medium';
+    padding-left: 24px;
+    width:180px; 
+    padding-top:12px;
+    padding-bottom:12px ;
+    font-size: 15px;
+    text-align: left;
+    
+  }
+
+ .head-title{
+    font-family: 'Roboto-Medium';
+    padding-left: 24px;
+    width:312px; 
+    font-size: 15px;
+    text-align: left; 
+    
+   
+  }
+
+  .head-author{
+    font-family: 'Roboto-Medium';
+    padding-left: 24px;
+    width:156px; 
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size: 15px; 
+    text-align: left;
+    
+  
+  }
+
+ 
+table td {
+  border:2px solid #F3F3F3
+}  
+
+
+
+  .body-cover-image{
+    font-family: 'Roboto-Medium';
+    padding-left: 24px;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size: 15px; 
+    width: 144px;
+    text-align: left; 
+  }
+
+  .body-launch-date{
+    font-family: 'Roboto-Regular';
+    padding-left: 24px;
+    padding-right:48px; 
+    padding-top:12px;
+    padding-bottom:12px ;
+    font-size: 15px;
+    color: #979FA0
+  }
+
+  .body-title{
+    cursor: pointer;
+    font-family: 'Roboto-Medium';
+    padding-left: 24px;
+ 
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size: 15px; 
+    color:#009BE9;
+  }
+
+  .body-author{
+    font-family: 'Roboto-Medium';
+    padding-left: 24px;
+ 
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size: 15px; 
+  }
+
+
+
+
+
+
+  /* Styling the description box */
+
+  .description-box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    padding: 12px;
+  }
+
+  .description-wrapper{ 
+
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    background-color: rgba(189,189,189,0.9);
+    
+  }
+
+  .description-head{
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    display:flex;
+    justify-content:space-between;
+     align-items:center;
+  }
+
+  .description-content{
+    font-family: 'Roboto-Regular';
+    font-size:15px;
+  }
+
+
+
+
+  /* New Blog Form styling */
+
+  .section{
+    transform: translate(0%,10%);
+    padding-top: 20px;
+    margin: 0 auto;   
+    background-color: #34495E ;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    width:400px;
+    box-shadow: 4px 4px 4px 6px grey;
+    
+  }
+
+  .label{
+
+    font-family: 'Roboto-Regular';
+    font-size:12px ;
+    color:white;
+  
+  }
+
+  .input{
+    border: 1px solid grey;
+  }
